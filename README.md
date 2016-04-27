@@ -1,7 +1,7 @@
-BITS Pilani, Pilani Campus Thesis Template in LaTeX
+BITS Pilani Reports LaTeX Template
 =======================
 
-A template and style file for generating reports / thesis in LaTeX. Specific for BITS-Pilani students
+A template and style file for generating reports in LaTeX. It is designed keeping a BITSian's thesis in mind but can be extended by anyone to adapt to the needs of the respective university reports (project reports, PhD Thesis, etc).
 
 The title page looks like this -
 
