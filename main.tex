@@ -31,11 +31,8 @@
 
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 
-\usepackage[square, numbers, comma, sort&compress]{natbib} % Use the natbib
-                % reference package - read up on this to edit the reference
-                % style; if you want text (e.g. Smith et al., 2012) for the
-                % in-text references (instead of numbers), remove 'numbers'
-
+\usepackage[backend=bibtex]{biblatex}
+\bibliography{Bibliography.bib}
 
 \title{\ttitle} % Defines the thesis title - don't touch this
 
@@ -62,9 +59,7 @@
 \maketitle
 \Declaration
 \Certificate
-\Quotation{Thanks to my solid academic training, today I can write hundreds of
-words on virtually any topic without possessing a shred of information, which is
-how I got a good job in journalism.}{Dave Barry}
+\Quotation{Insert Random Quote here. Publish like a boss.}{Your Name}
 
 \begin{abstract}
 The Thesis Abstract is written here (and usually kept to just this page).
@@ -147,8 +142,7 @@ Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$
 \pagestyle{empty} % Page style needs to be empty for this page
 
 % Dedication text
-\Dedicatory{I would like to dedicate this thesis to my University which taught
-me how to deal with all sorts of bureaucracy while doing real work.}
+\Dedicatory{Dedicate this to someone, anyone.}
 
 \addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
 
@@ -199,11 +193,6 @@ me how to deal with all sorts of bureaucracy while doing real work.}
 
 \lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
 
-% Use the "unsrtnat" BibTeX style for formatting the Bibliography
-\bibliographystyle{ieeetr}
-
-% The references (bibliography) information are stored in the file named
-% "Bibliography.bib"
-\bibliography{Bibliography}
+\printbibliography
 
 \end{document}
