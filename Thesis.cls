@@ -296,6 +296,11 @@ supervision.\\[2.5cm]
 \newcommand*{\addresses}[1]{\def\addressnames{#1}}
 \newcommand*{\university}[1]{\def\univname{#1}}
 \newcommand*{\UNIVERSITY}[1]{\def\UNIVNAME{#1}}
+
+%adding campus option
+\newcommand*{\campus}[1]{\def\campusname{#1}}
+\newcommand*{\CAMPUS}[1]{\def\CAMPUSNAME{#1}}
+
 \newcommand*{\department}[1]{\def\deptname{#1}}
 \newcommand*{\DEPARTMENT}[1]{\def\DEPTNAME{#1}}
 \newcommand*{\group}[1]{\def\groupname{#1}}
@@ -352,7 +357,7 @@ supervision.\\[2.5cm]
 
         \includegraphics{Figures/bits-logo.pdf} % University/department logo
        \\[1cm]
-        \UNIVNAME\\
+        \UNIVNAME, \CAMPUSNAME\\
         {\large \today}\\[4cm] % Date
         \vfill
     \end{center}
@@ -373,7 +378,7 @@ supervision.\\[2.5cm]
   \null\vfil
   \begin{center}
     \setlength{\parskip}{0pt}
-    {\normalsize \UNIVNAME \par} % University name in capitals
+    {\normalsize \UNIVNAME, \CAMPUSNAME \par} % University name in capitals
     \bigskip
     {\huge{\textit{Abstract}} \par}
     \bigskip
