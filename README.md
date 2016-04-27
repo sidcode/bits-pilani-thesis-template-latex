@@ -11,7 +11,7 @@ The title page looks like this -
 Improvements -
 
 - The BITS Logo is now vectorized (taken from the BITS Branding Styleguide)
-- The template design (configured by ```Thesis.cls``` adheres to the required thesis design for 2016 (according to the official handout)
+- The template design (configured in ```Thesis.cls```) adheres to the required thesis design for 2016 (according to the official handout)
 - Support for ```biblatex``` instead of the existing ```natbib``` for added functionality
 
 BITS Pilani, Pilani Campus Thesis template
