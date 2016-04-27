@@ -3,6 +3,11 @@ BITS Pilani, Pilani Campus Thesis Template in LaTeX
 
 A template and style file for generating reports / thesis in LaTeX. Specific for BITS-Pilani students
 
+The title page looks like this -
+
+![BITS Pilani Thesis](demo.png "Thesis Title Page")
+
+
 Improvements -
 
 - The BITS Logo is now vectorized (taken from the BITS Branding Styleguide)
